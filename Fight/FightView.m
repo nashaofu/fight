@@ -14,7 +14,7 @@
 {
     self = [super initWithFrame:frame isPreview:isPreview];
     if (self) {
-        NSURL* url = [[NSBundle bundleForClass:[self class]] URLForResource:@"fight" withExtension:@"mov"];
+        NSURL* url = [[NSBundle bundleForClass:[self class]] URLForResource:@"fight" withExtension:@"mp4"];
         AVPlayerItem* playerItem = [[AVPlayerItem alloc] initWithURL:url];
         AVPlayer* player = [AVPlayer playerWithPlayerItem:playerItem];
         

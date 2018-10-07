@@ -9,19 +9,19 @@
 /* Begin PBXBuildFile section */
 		3B240A2B215A764F008470FD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B240A2A215A764F008470FD /* AVFoundation.framework */; };
 		3B240A2D215A7653008470FD /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B240A2C215A7653008470FD /* AVKit.framework */; };
+		3B5D758B216A4F590088E4A8 /* fight.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3B5D758A216A4F590088E4A8 /* fight.mp4 */; };
 		3B7D161421592E2400BCA01F /* FightView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B7D161321592E2400BCA01F /* FightView.h */; };
 		3B7D161621592E2400BCA01F /* FightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7D161521592E2400BCA01F /* FightView.m */; };
-		3BDCB6E3215A8FBB00DE499F /* fight.mov in Resources */ = {isa = PBXBuildFile; fileRef = 3BDCB6E2215A8FBB00DE499F /* fight.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3B240A2A215A764F008470FD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		3B240A2C215A7653008470FD /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		3B5D758A216A4F590088E4A8 /* fight.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = fight.mp4; sourceTree = "<group>"; };
 		3B7D161021592E2400BCA01F /* Fight.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fight.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B7D161321592E2400BCA01F /* FightView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FightView.h; sourceTree = "<group>"; };
 		3B7D161521592E2400BCA01F /* FightView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FightView.m; sourceTree = "<group>"; };
 		3B7D161721592E2400BCA01F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3BDCB6E2215A8FBB00DE499F /* fight.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = fight.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +66,7 @@
 		3B7D161221592E2400BCA01F /* Fight */ = {
 			isa = PBXGroup;
 			children = (
-				3BDCB6E2215A8FBB00DE499F /* fight.mov */,
+				3B5D758A216A4F590088E4A8 /* fight.mp4 */,
 				3B7D161321592E2400BCA01F /* FightView.h */,
 				3B7D161521592E2400BCA01F /* FightView.m */,
 				3B7D161721592E2400BCA01F /* Info.plist */,
@@ -142,7 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BDCB6E3215A8FBB00DE499F /* fight.mov in Resources */,
+				3B5D758B216A4F590088E4A8 /* fight.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
